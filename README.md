@@ -1,28 +1,25 @@
 # PyPolyStar-GCE
 
-**Python package for polytropic stellar models and one-zone Galactic Chemical Evolution**
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![arXiv](https://img.shields.io/badge/arXiv-pending-orange)](https://arxiv.org)  <!-- update later -->
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org) <!-- update after upload -->
 
-## Overview
-Open-source toolkit that:
-- Solves the Lane-Emden equation (n = 0–5) with high accuracy
-- Computes white-dwarf mass–radius relations (n=1.5) and density profiles
-- Integrates custom stellar models into simple one-zone GCE for Milky-Way-like or dwarf galaxies
+**PyPolyStar-GCE** is an open-source Python package that provides a **numerical implementation of the stellar structure equations** (Lane-Emden + full 4-ODE solver) with direct application to **galactic chemical evolution**. Designed for undergraduate research and full reproducibility.
 
-Perfect for courses in **Stellar Structure & Evolution**, **PDEs**, **Numerical Analysis**, and **Galactic & Extragalactic Astrophysics**.
+Developed as a capstone project spanning **Stellar Structure & Evolution**, **PDEs**, **Galactic & Extragalactic Astrophysics**, and **Numerical Analysis** (Cairo University, 2026).
 
-## Features
-- Numerical solver (`scipy.integrate.solve_ivp` + event termination)
-- Analytic n=1 solution for validation
-- White-dwarf M–R relation + comparison to observed objects
-- Density/pressure/mass profiles
-- One-zone GCE with customizable SFH, infall/outflow, and stellar-model-driven yields/lifetimes
-- Reproducible Jupyter notebooks for every figure
+### Features
+- Accurate Lane-Emden solver for polytropes n = 0 to 5 (matches standard textbook values to 6+ digits)
+- Physical scaling to real stellar models (white dwarfs n=1.5, radiative stars n=3)
+- Publication-quality plotting routines (Mass–Radius, density profiles, etc.)
+- Ready-to-extend one-zone galactic chemical evolution module
+- Zero external dependencies beyond NumPy/SciPy/Matplotlib
 
-## Installation
+### Figure 1 (already included)
+Mass–Radius relation for non-relativistic white dwarfs (n=1.5) with real observed points (Sirius B, 40 Eri B, etc.).
+
+### Installation
 ```bash
-git clone https://github.com/yourusername/PyPolyStar-GCE.git
+git clone https://github.com/AhmedGamalIsaa/PyPolyStar-GCE.git
 cd PyPolyStar-GCE
-pip install -e .
+pip install -r requirements.txt
