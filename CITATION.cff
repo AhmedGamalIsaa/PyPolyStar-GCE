@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use PyPolyStar-GCE in your research, please cite it as below."
+title: "PyPolyStar-GCE: Numerical Implementation of Polytropic Stellar Structure Equations and Application to Galactic Chemical Evolution"
+type: software
+authors:
+  - family-names: "Isaa"
+    given-names: "Ahmed"
+    affiliation: "Department of Physics, University of Science and Technology at Zewail City, Egypt"
+    orcid: ""  # add your ORCID here later if you have one
+version: "1.0.0"
+date-released: "2026-02-20"
+repository-code: "https://github.com/AhmedGamalIsaa/PyPolyStar-GCE"
+license: MIT
+description: >-
+  Open-source Python package that solves the Lane-Emden equation and full
+  stellar structure equations for polytropic models (n=0 to n=5). Includes
+  physical scaling for white dwarfs (n=1.5) and radiative stars (n=3),
+  publication-quality plotting routines, and a ready-to-use one-zone galactic
+  chemical evolution module. Designed for undergraduate research and
+  reproducibility.
+keywords:
+  - astrophysics
+  - stellar structure
+  - lane-emden
+  - polytrope
+  - white dwarfs
+  - galactic chemical evolution
+  - numerical methods
+preferred-citation:
+  type: article
+  title: "PyPolyStar-GCE: An open-source Python pipeline for numerical stellar structure and galactic chemical evolution"
+  authors:
+    - family-names: "Isaa"
+      given-names: "Ahmed"
+  journal: "Astronomy & Computing"   # placeholder — update after acceptance
+  year: 2026
+  doi: ""                            # Zenodo DOI will appear here after upload
