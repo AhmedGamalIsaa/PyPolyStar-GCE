@@ -23,7 +23,6 @@ Perfect for courses in **Stellar Structure & Evolution**, **PDEs**, **Numerical 
 
 ## Installation
 ```bash
-Add professional README
 git clone https://github.com/yourusername/PyPolyStar-GCE.git
 cd PyPolyStar-GCE
 pip install -e .
