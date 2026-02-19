@@ -6,7 +6,7 @@
 
 **PyPolyStar-GCE** is an open-source Python package that provides a **numerical implementation of the stellar structure equations** (Lane-Emden + full 4-ODE solver) with direct application to **galactic chemical evolution**. Designed for undergraduate research and full reproducibility.
 
-Developed as a capstone project spanning **Stellar Structure & Evolution**, **PDEs**, **Galactic & Extragalactic Astrophysics**, and **Numerical Analysis** (Cairo University, 2026).
+Developed as a capstone project spanning **Stellar Structure & Evolution**, **PDEs**, **Galactic & Extragalactic Astrophysics**, and **Numerical Analysis** (University of Science and Technology at Zewail City, 2026).
 
 ### Features
 - Accurate Lane-Emden solver for polytropes n = 0 to 5 (matches standard textbook values to 6+ digits)
